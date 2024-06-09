@@ -53,6 +53,7 @@ def list_chore_options():
 def start_session():
     while keep_session:
         try:
+            print("Welcome to terminal chore list:")
             list_chore_options()
 
             user_selected_option = int(input("Chose a option: "))
